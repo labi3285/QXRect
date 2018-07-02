@@ -15,7 +15,6 @@ class RelationLayoutViewController: UIViewController {
         one.bounces = false
         one.showsHorizontalScrollIndicator = false
         one.showsVerticalScrollIndicator = false
-        one.contentInsetAdjustmentBehavior = .never
         return one
     }()
     lazy var container: UIView = {
@@ -63,6 +62,7 @@ class RelationLayoutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(UIScrollView())
         view.addSubview(scrollView)
         scrollView.addSubview(container)
         scrollView.addSubview(theView)

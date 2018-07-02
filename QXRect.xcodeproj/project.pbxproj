@@ -10,14 +10,14 @@
 		75D4C20520E9F8F300F0F08A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C20420E9F8F300F0F08A /* AppDelegate.swift */; };
 		75D4C20720E9F8F300F0F08A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C20620E9F8F300F0F08A /* ViewController.swift */; };
 		75D4C20C20E9F8F400F0F08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D4C20B20E9F8F400F0F08A /* Assets.xcassets */; };
-		75D4C20F20E9F8F400F0F08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D4C20D20E9F8F400F0F08A /* LaunchScreen.storyboard */; };
 		75D4C21720E9F98300F0F08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D4C21620E9F98300F0F08A /* Main.storyboard */; };
-		75D4C21C20E9F99100F0F08A /* QXRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C21920E9F99100F0F08A /* QXRect.swift */; };
-		75D4C21D20E9F99100F0F08A /* QXRect.Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C21A20E9F99100F0F08A /* QXRect.Relation.swift */; };
-		75D4C21E20E9F99100F0F08A /* UIKit_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C21B20E9F99100F0F08A /* UIKit_ext.swift */; };
 		75D4C22220E9F9CC00F0F08A /* BasicLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C21F20E9F9CB00F0F08A /* BasicLayoutViewController.swift */; };
 		75D4C22320E9F9CC00F0F08A /* UIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C22020E9F9CB00F0F08A /* UIs.swift */; };
 		75D4C22420E9F9CC00F0F08A /* RelationLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C22120E9F9CB00F0F08A /* RelationLayoutViewController.swift */; };
+		75D4C22620EA004800F0F08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D4C22520EA004800F0F08A /* LaunchScreen.storyboard */; };
+		75D4C24520EA02A000F0F08A /* QXRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C24220EA02A000F0F08A /* QXRect.swift */; };
+		75D4C24620EA02A000F0F08A /* QXRect.Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C24320EA02A000F0F08A /* QXRect.Relation.swift */; };
+		75D4C24720EA02A000F0F08A /* UIKit_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4C24420EA02A000F0F08A /* UIKit_ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,15 +25,15 @@
 		75D4C20420E9F8F300F0F08A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D4C20620E9F8F300F0F08A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75D4C20B20E9F8F400F0F08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		75D4C20E20E9F8F400F0F08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D4C21020E9F8F400F0F08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D4C21620E9F98300F0F08A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		75D4C21920E9F99100F0F08A /* QXRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXRect.swift; sourceTree = "<group>"; };
-		75D4C21A20E9F99100F0F08A /* QXRect.Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXRect.Relation.swift; sourceTree = "<group>"; };
-		75D4C21B20E9F99100F0F08A /* UIKit_ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit_ext.swift; sourceTree = "<group>"; };
 		75D4C21F20E9F9CB00F0F08A /* BasicLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicLayoutViewController.swift; sourceTree = "<group>"; };
 		75D4C22020E9F9CB00F0F08A /* UIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIs.swift; sourceTree = "<group>"; };
 		75D4C22120E9F9CB00F0F08A /* RelationLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationLayoutViewController.swift; sourceTree = "<group>"; };
+		75D4C22520EA004800F0F08A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D4C24220EA02A000F0F08A /* QXRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXRect.swift; sourceTree = "<group>"; };
+		75D4C24320EA02A000F0F08A /* QXRect.Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXRect.Relation.swift; sourceTree = "<group>"; };
+		75D4C24420EA02A000F0F08A /* UIKit_ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKit_ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,28 +66,28 @@
 		75D4C20320E9F8F300F0F08A /* QXRect */ = {
 			isa = PBXGroup;
 			children = (
-				75D4C21820E9F99100F0F08A /* QXLayout */,
+				75D4C24120EA02A000F0F08A /* QXRect */,
 				75D4C20420E9F8F300F0F08A /* AppDelegate.swift */,
 				75D4C20620E9F8F300F0F08A /* ViewController.swift */,
 				75D4C21620E9F98300F0F08A /* Main.storyboard */,
+				75D4C22520EA004800F0F08A /* LaunchScreen.storyboard */,
 				75D4C21F20E9F9CB00F0F08A /* BasicLayoutViewController.swift */,
 				75D4C22120E9F9CB00F0F08A /* RelationLayoutViewController.swift */,
 				75D4C22020E9F9CB00F0F08A /* UIs.swift */,
 				75D4C20B20E9F8F400F0F08A /* Assets.xcassets */,
-				75D4C20D20E9F8F400F0F08A /* LaunchScreen.storyboard */,
 				75D4C21020E9F8F400F0F08A /* Info.plist */,
 			);
 			path = QXRect;
 			sourceTree = "<group>";
 		};
-		75D4C21820E9F99100F0F08A /* QXLayout */ = {
+		75D4C24120EA02A000F0F08A /* QXRect */ = {
 			isa = PBXGroup;
 			children = (
-				75D4C21920E9F99100F0F08A /* QXRect.swift */,
-				75D4C21A20E9F99100F0F08A /* QXRect.Relation.swift */,
-				75D4C21B20E9F99100F0F08A /* UIKit_ext.swift */,
+				75D4C24220EA02A000F0F08A /* QXRect.swift */,
+				75D4C24320EA02A000F0F08A /* QXRect.Relation.swift */,
+				75D4C24420EA02A000F0F08A /* UIKit_ext.swift */,
 			);
-			path = QXLayout;
+			path = QXRect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4C22620EA004800F0F08A /* LaunchScreen.storyboard in Resources */,
 				75D4C21720E9F98300F0F08A /* Main.storyboard in Resources */,
-				75D4C20F20E9F8F400F0F08A /* LaunchScreen.storyboard in Resources */,
 				75D4C20C20E9F8F400F0F08A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,29 +161,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4C24720EA02A000F0F08A /* UIKit_ext.swift in Sources */,
 				75D4C22420E9F9CC00F0F08A /* RelationLayoutViewController.swift in Sources */,
-				75D4C21E20E9F99100F0F08A /* UIKit_ext.swift in Sources */,
+				75D4C24620EA02A000F0F08A /* QXRect.Relation.swift in Sources */,
 				75D4C22320E9F9CC00F0F08A /* UIs.swift in Sources */,
 				75D4C20720E9F8F300F0F08A /* ViewController.swift in Sources */,
-				75D4C21C20E9F99100F0F08A /* QXRect.swift in Sources */,
 				75D4C22220E9F9CC00F0F08A /* BasicLayoutViewController.swift in Sources */,
+				75D4C24520EA02A000F0F08A /* QXRect.swift in Sources */,
 				75D4C20520E9F8F300F0F08A /* AppDelegate.swift in Sources */,
-				75D4C21D20E9F99100F0F08A /* QXRect.Relation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		75D4C20D20E9F8F400F0F08A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75D4C20E20E9F8F400F0F08A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		75D4C21120E9F8F400F0F08A /* Debug */ = {
@@ -306,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QXRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QXRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

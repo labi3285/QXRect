@@ -18,7 +18,7 @@ class BasicLayoutViewController: UIViewController {
     lazy var labels: [UILabel] = {
         return (0...20).map { (i) -> UILabel in
             let label = UILabel()
-            label.backgroundColor = UIColor(displayP3Red: CGFloat(arc4random_uniform(255))/255.0, green: CGFloat(arc4random_uniform(255))/255.0, blue: CGFloat(arc4random_uniform(255))/255.0, alpha: 0.5)
+            label.backgroundColor = UIColor.green
             label.textAlignment = .center
             label.textColor = UIColor.white
             label.adjustsFontSizeToFitWidth = true
