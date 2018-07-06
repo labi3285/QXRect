@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     
     /// QXRect for frame
-    var qxRect: QXRect {
+    public var qxRect: QXRect {
         set {
             frame = newValue.rect
         }
@@ -21,7 +21,7 @@ extension UIView {
     }
     
     /// QXSize for frame.size
-    var qxSize: QXRect.Size {
+    public var qxSize: QXRect.Size {
         set {
             frame = CGRect(x: frame.minX, y: frame.minY, width: CGFloat(newValue.width), height: CGFloat(newValue.height))
         }
@@ -31,7 +31,7 @@ extension UIView {
     }
     
     /// QXPoint for frame.origin
-    var qxOrigin: QXRect.Point {
+    public var qxOrigin: QXRect.Point {
         set {
             frame = CGRect(x: CGFloat(newValue.x), y: CGFloat(newValue.y), width: frame.width, height: frame.height)
         }
@@ -45,7 +45,7 @@ extension UIView {
 extension CGSize {
     
     /// QXSize
-    var qxSize: QXRect.Size {
+    public var qxSize: QXRect.Size {
         set {
             width = CGFloat(newValue.width)
             height = CGFloat(newValue.height)
@@ -60,7 +60,7 @@ extension CGSize {
 extension QXRect.Size {
     
     /// CGSize
-    var size: CGSize {
+    public var size: CGSize {
         set {
             width = Double(newValue.width)
             height = Double(newValue.height)
@@ -75,7 +75,7 @@ extension QXRect.Size {
 extension CGPoint {
     
     /// QXPoint
-    var qxPoint: QXRect.Point {
+    public var qxPoint: QXRect.Point {
         set {
             x = CGFloat(newValue.x)
             y = CGFloat(newValue.y)
@@ -90,7 +90,7 @@ extension CGPoint {
 extension QXRect.Point {
     
     /// CGPoint
-    var point: CGPoint {
+    public var point: CGPoint {
         set {
             x = Double(newValue.x)
             y = Double(newValue.y)
@@ -104,7 +104,7 @@ extension QXRect.Point {
 extension CGRect {
     
     /// QXRect
-    var qxRect: QXRect {
+    public var qxRect: QXRect {
         set {
             origin = newValue.origin.point
             size = newValue.size.size
@@ -122,7 +122,7 @@ extension CGRect {
 extension QXRect {
     
     /// CGRect
-    var rect: CGRect {
+    public var rect: CGRect {
         set {
             center = CGPoint(x: newValue.minX + newValue.width * 0.5, y: newValue.minY + newValue.height * 0.5).qxPoint
             size = newValue.size.qxSize
