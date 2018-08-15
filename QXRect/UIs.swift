@@ -42,7 +42,7 @@ class Label: UIButton {
 
 class LabelSlider: UIControl {
     
-    var value: Double = 20
+    var value: CGFloat = 20
     
     var title: String = "" {
         didSet {
@@ -88,7 +88,7 @@ class LabelSlider: UIControl {
         valueLabel.qxRect = bounds.qxRect.insideRect(.right(10), .width(40))
     }
     @objc func valueChanged() {
-        value = Double(slider.value)
+        value = CGFloat(slider.value)
         valueLabel.text = String(format: "%.01f", value)
         sendActions(for: .valueChanged)
     }

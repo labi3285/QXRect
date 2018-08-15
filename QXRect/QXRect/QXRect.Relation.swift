@@ -6,7 +6,7 @@
 //  Copyright © 2018年 labi3285. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /**
  * Conflict Priority:
@@ -19,18 +19,18 @@ extension QXRect {
     public enum Relation {
         
         /// right margin relation
-        case right(Double)
+        case right(CGFloat)
         /// left margin relation
-        case left(Double)
+        case left(CGFloat)
         /// bottom margin relation
-        case bottom(Double)
+        case bottom(CGFloat)
         /// top margin relation
-        case top(Double)
+        case top(CGFloat)
         
         /// width relation
-        case width(Double)
+        case width(CGFloat)
         /// height relation
-        case height(Double)
+        case height(CGFloat)
         
         /// center x relation
         case centerX
@@ -40,10 +40,10 @@ extension QXRect {
         case center
         
         /// width/height relation
-        case size(Double, Double)
+        case size(CGFloat, CGFloat)
         
         /// offset in any direction relation
-        case offset(Double)
+        case offset(CGFloat)
         
     }
     
@@ -470,18 +470,18 @@ extension QXRect {
 extension QXRect {
     
     fileprivate struct RelationsHelper {
-        var top: Double?
-        var left: Double?
-        var bottom: Double?
-        var right: Double?
-        var width: Double?
-        var height: Double?
-        var offset: Double?
+        var top: CGFloat?
+        var left: CGFloat?
+        var bottom: CGFloat?
+        var right: CGFloat?
+        var width: CGFloat?
+        var height: CGFloat?
+        var offset: CGFloat?
         var isCenterX: Bool = false
         var isCenterY: Bool = false
         var isCenter: Bool = false
-        var anchorX: Double = 0.5
-        var anchorY: Double = 0.5
+        var anchorX: CGFloat = 0.5
+        var anchorY: CGFloat = 0.5
         init(relations: [Relation]) {
             for relation in relations {
                 switch relation {

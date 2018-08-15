@@ -6,7 +6,7 @@
 //  Copyright © 2018年 labi3285. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /// QXRect
 public struct QXRect {
@@ -17,7 +17,7 @@ public struct QXRect {
     public init() { }
     
     /// init with x/y/width/height
-    public init(_ x: Double, _ y: Double, _ width: Double, _ height: Double) {
+    public init(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) {
         self.x = x
         self.y = y
         self.width = width
@@ -27,7 +27,7 @@ public struct QXRect {
     //MARK:-
 
     /// x at left
-    public var x: Double {
+    public var x: CGFloat {
         set {
             left = newValue
         }
@@ -37,7 +37,7 @@ public struct QXRect {
     }
     
     /// y at top
-    public var y: Double {
+    public var y: CGFloat {
         set {
             top = newValue
         }
@@ -47,7 +47,7 @@ public struct QXRect {
     }
     
     /// width
-    public var width: Double {
+    public var width: CGFloat {
         set {
             _width = newValue
             if _centerX != nil {
@@ -101,7 +101,7 @@ public struct QXRect {
     }
     
     /// height
-    public var height: Double {
+    public var height: CGFloat {
         set {
             _height = newValue
             if _centerY != nil {
@@ -157,7 +157,7 @@ public struct QXRect {
     //MARK:-
     
     /// top
-    public var top: Double {
+    public var top: CGFloat {
         set {
             _top = newValue
             if _height == nil {
@@ -192,7 +192,7 @@ public struct QXRect {
     }
     
     /// left
-    public var left: Double {
+    public var left: CGFloat {
         set {
             _left = newValue
             if _width == nil {
@@ -227,7 +227,7 @@ public struct QXRect {
     }
     
     /// bottom
-    public var bottom: Double {
+    public var bottom: CGFloat {
         set {
             _bottom = newValue
             if _height == nil {
@@ -262,7 +262,7 @@ public struct QXRect {
     }
     
     /// right
-    public var right: Double   {
+    public var right: CGFloat   {
         set {
             _right = newValue
             if _width == nil {
@@ -297,7 +297,7 @@ public struct QXRect {
     }
     
     /// center x
-    public var centerX: Double {
+    public var centerX: CGFloat {
         set {
             _centerX = newValue
             if _width == nil {
@@ -334,7 +334,7 @@ public struct QXRect {
     }
     
     /// center y
-    public var centerY: Double {
+    public var centerY: CGFloat {
         set {
             _centerY = newValue
             if _height == nil {
@@ -376,9 +376,9 @@ public struct QXRect {
     public struct Size {
         
         /// width
-        public var width: Double
+        public var width: CGFloat
         /// height
-        public var height: Double
+        public var height: CGFloat
         
         /// default init
         public init() {
@@ -387,7 +387,7 @@ public struct QXRect {
         }
         
         /// init with width/height
-        public init(_ width: Double, _ height: Double) {
+        public init(_ width: CGFloat, _ height: CGFloat) {
             self.width = width
             self.height = height
         }
@@ -398,9 +398,9 @@ public struct QXRect {
     public struct Point {
         
         /// x
-        public var x: Double
+        public var x: CGFloat
         /// y
-        public var y: Double
+        public var y: CGFloat
         
         /// default init
         public init() {
@@ -409,7 +409,7 @@ public struct QXRect {
         }
         
         /// init with x/y
-        public init(_ x: Double, _ y: Double) {
+        public init(_ x: CGFloat, _ y: CGFloat) {
             self.x = x
             self.y = y
         }
@@ -418,16 +418,16 @@ public struct QXRect {
     
     //MARK:-
     
-    private var _top: Double?
-    private var _left: Double?
-    private var _bottom: Double?
-    private var _right: Double?
-    private var _centerX: Double?
-    private var _centerY: Double?
-    private var _width: Double?
-    private var _height: Double?
-    private var _anchorX: Double?
-    private var _anchorY: Double?
+    private var _top: CGFloat?
+    private var _left: CGFloat?
+    private var _bottom: CGFloat?
+    private var _right: CGFloat?
+    private var _centerX: CGFloat?
+    private var _centerY: CGFloat?
+    private var _width: CGFloat?
+    private var _height: CGFloat?
+    private var _anchorX: CGFloat?
+    private var _anchorY: CGFloat?
     
 }
 
@@ -607,8 +607,8 @@ extension QXRect {
 extension QXRect: CustomStringConvertible {
     
     public var description: String {
-        func string(_ f: Double) -> String {
-            if f == Double(Int(f)) {
+        func string(_ f: CGFloat) -> String {
+            if f == CGFloat(Int(f)) {
                 return "\(Int(f))"
             } else {
                 return "\(f)"
@@ -622,8 +622,8 @@ extension QXRect: CustomStringConvertible {
 extension QXRect.Size: CustomStringConvertible {
     
     public var description: String {
-        func string(_ f: Double) -> String {
-            if f == Double(Int(f)) {
+        func string(_ f: CGFloat) -> String {
+            if f == CGFloat(Int(f)) {
                 return "\(Int(f))"
             } else {
                 return "\(f)"
@@ -637,8 +637,8 @@ extension QXRect.Size: CustomStringConvertible {
 extension QXRect.Point: CustomStringConvertible {
     
     public var description: String {
-        func string(_ f: Double) -> String {
-            if f == Double(Int(f)) {
+        func string(_ f: CGFloat) -> String {
+            if f == CGFloat(Int(f)) {
                 return "\(Int(f))"
             } else {
                 return "\(f)"

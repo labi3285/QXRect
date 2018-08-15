@@ -51,7 +51,7 @@ extension CGSize {
             height = CGFloat(newValue.height)
         }
         get {
-            return QXRect.Size(Double(width), Double(height))
+            return QXRect.Size(CGFloat(width), CGFloat(height))
         }
     }
     
@@ -62,8 +62,8 @@ extension QXRect.Size {
     /// CGSize
     public var size: CGSize {
         set {
-            width = Double(newValue.width)
-            height = Double(newValue.height)
+            width = CGFloat(newValue.width)
+            height = CGFloat(newValue.height)
         }
         get {
             return CGSize(width: CGFloat(width), height: CGFloat(height))
@@ -81,7 +81,7 @@ extension CGPoint {
             y = CGFloat(newValue.y)
         }
         get {
-            return QXRect.Point(Double(x), Double(y))
+            return QXRect.Point(CGFloat(x), CGFloat(y))
         }
     }
     
@@ -92,8 +92,8 @@ extension QXRect.Point {
     /// CGPoint
     public var point: CGPoint {
         set {
-            x = Double(newValue.x)
-            y = Double(newValue.y)
+            x = CGFloat(newValue.x)
+            y = CGFloat(newValue.y)
         }
         get {
             return CGPoint(x: CGFloat(x), y: CGFloat(y))
