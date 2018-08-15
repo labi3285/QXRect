@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "QXRect"
-s.version      = "0.0.4"
+s.version      = "0.0.5"
 s.summary      = "A super easy use frame tool for iOS views."
 s.description  = <<-DESC
 Based on rects relations such as left right top bottom center offset etc. Enjoy!
